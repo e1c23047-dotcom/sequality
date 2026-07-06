@@ -9,7 +9,7 @@ public class Calculate {
         if (age < 13) {
             return 1000; // Fee for children
         } else {
-            return 1300; // Fee for seniors
+            return 2000; // Fee for seniors
         }
     }
     public int getTotalFee(int age , int groupSize) {
